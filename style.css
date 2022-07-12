@@ -1,7 +1,15 @@
+@font-face {
+    font-family: digital7;
+    src: url(Digital7-1e1Z.ttf);
+}
+
 /* body */
 body {
     margin: 0;
-    background-color: rgb(50, 50, 117);
+    background-image: url("lakers.jpeg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family: digital7;
 }
 
 /* container */
@@ -9,28 +17,30 @@ body {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    color: white;
-    margin-top: 20px;
+    color: #F8D210;
     font-size: x-large;
 }
 
 /* home and guest score*/ 
 #home-score, #guest-score {
-    background-color: black;
-    color: rgb(255, 1, 1);
+    background-color: #4E545C;
+    color: #E1C340;
+    border: 3px solid #F8D210;
+    border-radius: 4px;
     text-align: center;
     padding: 25px 30px;
-    font-size: 40px;
-    font-family:monospace;
+    font-size: 50px;
 }
 
 /* home and guest buttons */
 button {
-    background: none;
-    border-color: white;
+    background: #AEB8C4;
+    border-color: #E1C340;
     border-radius: 4px;
-    color: white;
-    margin: 5px;
-    padding: 10px;
+    box-shadow: 3px 3px #4E545C;
+    color: #5A3E79;
+    padding: 6px;
 }
+
+
 
