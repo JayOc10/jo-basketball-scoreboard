@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols+2&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Basketball Scoreboard</title>
 </head>
@@ -11,24 +14,24 @@
     <div class="container">
         <div>
             <h1>HOME</h1>
-            <h2 class="score">0</h2>
+            <h2 id="home-score">0</h2>
             <div>
-                <button onclick="btn1()">+1</button>
-                <button onclick="btn2()">+2</button>
-                <button onclick="btn3()">+3</button>
+                <button onclick="homeBtn1()">+1</button>
+                <button onclick="homeBtn2()">+2</button>
+                <button onclick="homeBtn3()">+3</button>
             </div>
         </div>
         <div>
             <h1>GUEST</h1>
-            <h2 class="score">0</h2>
+            <h2 id="guest-score">0</h2>
             <div>
-                <button onclick="btn4()">+1</button>
-                <button onclick="btn5()">+2</button>
-                <button onclick="btn6()">+3</button>
+                <button onclick="guestBtn1()">+1</button>
+                <button onclick="guestBtn2()">+2</button>
+                <button onclick="guestBtn3()">+3</button>
             </div>
         </div>
-        
     </div>
+    <button id="new-game" onclick="newGame">New Game</button>
     <script src="script.js"></script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: rgb(54, 54, 138);
+    background-color: rgb(50, 50, 117);
 }
 
 .container {
@@ -11,17 +11,30 @@ body {
     margin-top: 20px;
 }
 
-.score {
+#home-score, #guest-score {
     background-color: black;
     color: rgb(255, 1, 1);
     text-align: center;
-    padding: 30px 50px;
-    font-size: xx-large;
+    padding: 10px 30px;
+    font-size: 40px;
+    font-family:monospace;
+}
+
+#new-game{
+    display: flex;
+    padding: 7px;
+    background-color: white;
+    color: red;
+    font-size: x-large;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
 }
 
 button {
     background: none;
     border-color: white;
     color: white;
-    margin: 3px;
+    margin: 6px;
 }
+
