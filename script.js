@@ -1,32 +1,18 @@
 //variables
-let count = 0
+let homeCount = 0
+let guestCount = 0
 let homeScore = document.getElementById("home-score")
 let guestScore = document.getElementById("guest-score")
 
 // home score
-function homeBtn1(){
-    count = count + 1
-    homeScore.textContent = count
-}
-function homeBtn2(){
-    count = count + 2
-    homeScore.textContent = count
-}
-function homeBtn3(){
-    count = count + 3
-    homeScore.textContent = count
+function addToHome(amount){
+     homeCount += amount
+    homeScore.textContent = homeCount
 }
 
+
 // guest score
-function guestBtn1(){
-    count = count + 1
-    guestScore.textContent = count
-}
-function guestBtn2(){
-    count = count + 2
-    guestScore.textContent = count
-}
-function guestBtn3(){
-    count = count + 3
-    guestScore.textContent = count
+function addToGuest(amount){
+     guestCount += amount
+    guestScore.textContent = guestCount
 }

@@ -1,13 +1,13 @@
 @font-face {
     font-family: digital7;
-    src: url(Digital7-1e1Z.ttf);
+    src: url(digital-7.regular.ttf);
 }
 
 /* body */
 body {
     margin: 0;
     background-image: url("lakers.jpeg");
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     font-family: digital7;
 }
@@ -40,7 +40,7 @@ button {
     box-shadow: 3px 3px #4E545C;
     color: #5A3E79;
     padding: 6px;
+    font-family: digital7;
 }
-
 
 
